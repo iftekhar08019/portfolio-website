@@ -1,6 +1,15 @@
+body{
+    font-family: 'Fuggles', Cursive;
+
+}
 h1{
     color: black;
+    font-size: 50px;
+    
 }
 span{
     color: orange;
+}
+div{
+    margin-left: 150 px;
 }
