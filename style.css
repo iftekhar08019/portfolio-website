@@ -23,8 +23,8 @@ p{
     font-size: 21px;
     font-weight: 700;
 }
-section{
-    display: inline-flex;
+.flexible-container{
+    display: flex;
 
 }
 .half-width{
@@ -51,4 +51,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+.experience-element{
+    width: 40%;
+    padding: 15px 15px 40px 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 100px gray;
+    border-radius: 15px;
+}
+#baby{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full{
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
